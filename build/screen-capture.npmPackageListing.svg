@@ -1,21 +1,21 @@
 <svg height="286" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="286" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  1.  2017-03-21 14:25:06 +0000      134 byte  CHANGELOG.md</tspan>
-<tspan x="10" y="42">  2.  2017-03-21 14:25:06 +0000     1610 byte  LICENSE</tspan>
-<tspan x="10" y="58">  3.  2017-03-21 14:25:06 +0000    10707 byte  README.md</tspan>
-<tspan x="10" y="74">  4.  2017-03-21 14:25:06 +0000       55 byte  index.js</tspan>
-<tspan x="10" y="90">  5.  2017-03-21 14:25:06 +0000     2197 byte  lib/alphabet.js</tspan>
-<tspan x="10" y="106">  6.  2017-03-21 14:25:06 +0000     1291 byte  lib/build.js</tspan>
-<tspan x="10" y="122">  7.  2017-03-21 14:25:06 +0000      418 byte  lib/decode.js</tspan>
-<tspan x="10" y="138">  8.  2017-03-21 14:25:06 +0000      398 byte  lib/encode.js</tspan>
-<tspan x="10" y="154">  9.  2017-03-21 14:25:06 +0000     1783 byte  lib/index.js</tspan>
-<tspan x="10" y="170"> 10.  2017-03-21 14:25:06 +0000      407 byte  lib/is-valid.js</tspan>
-<tspan x="10" y="186"> 11.  2017-03-21 14:25:06 +0000      383 byte  lib/random/random-byte-browser.js</tspan>
-<tspan x="10" y="202"> 12.  2017-03-21 14:25:06 +0000      179 byte  lib/random/random-byte.js</tspan>
-<tspan x="10" y="218"> 13.  2017-03-21 14:25:06 +0000      473 byte  lib/random/random-from-seed.js</tspan>
-<tspan x="10" y="234"> 14.  2017-03-21 14:25:06 +0000       35 byte  lib/util/cluster-worker-id-browser.js</tspan>
-<tspan x="10" y="250"> 15.  2017-03-21 14:25:06 +0000       79 byte  lib/util/cluster-worker-id.js</tspan>
-<tspan x="10" y="266"> 16.  2017-03-21 14:25:06 +0000     3035 byte  package.json</tspan>
+<tspan x="10" y="26">  1.  2017-03-21 14:47:29 +0000      134 byte  CHANGELOG.md</tspan>
+<tspan x="10" y="42">  2.  2017-03-21 14:47:29 +0000     1610 byte  LICENSE</tspan>
+<tspan x="10" y="58">  3.  2017-03-21 14:47:29 +0000    10707 byte  README.md</tspan>
+<tspan x="10" y="74">  4.  2017-03-21 14:47:29 +0000       55 byte  index.js</tspan>
+<tspan x="10" y="90">  5.  2017-03-21 14:47:29 +0000     2197 byte  lib/alphabet.js</tspan>
+<tspan x="10" y="106">  6.  2017-03-21 14:47:29 +0000     1291 byte  lib/build.js</tspan>
+<tspan x="10" y="122">  7.  2017-03-21 14:47:29 +0000      418 byte  lib/decode.js</tspan>
+<tspan x="10" y="138">  8.  2017-03-21 14:47:29 +0000      398 byte  lib/encode.js</tspan>
+<tspan x="10" y="154">  9.  2017-03-21 14:47:29 +0000     1783 byte  lib/index.js</tspan>
+<tspan x="10" y="170"> 10.  2017-03-21 14:47:29 +0000      407 byte  lib/is-valid.js</tspan>
+<tspan x="10" y="186"> 11.  2017-03-21 14:47:29 +0000      383 byte  lib/random/random-byte-browser.js</tspan>
+<tspan x="10" y="202"> 12.  2017-03-21 14:47:29 +0000      179 byte  lib/random/random-byte.js</tspan>
+<tspan x="10" y="218"> 13.  2017-03-21 14:47:29 +0000      473 byte  lib/random/random-from-seed.js</tspan>
+<tspan x="10" y="234"> 14.  2017-03-21 14:47:29 +0000       35 byte  lib/util/cluster-worker-id-browser.js</tspan>
+<tspan x="10" y="250"> 15.  2017-03-21 14:47:29 +0000       79 byte  lib/util/cluster-worker-id.js</tspan>
+<tspan x="10" y="266"> 16.  2017-03-21 14:47:29 +0000     3035 byte  package.json</tspan>
 </text>
 </svg>
