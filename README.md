@@ -1,11 +1,13 @@
-# api documentation for  [shortid (v2.2.8)](https://github.com/dylang/shortid)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-shortid.svg)](https://travis-ci.org/npmdoc/node-npmdoc-shortid)
+# api documentation for  [shortid (v2.2.8)](https://github.com/dylang/shortid)  [![npm package](https://img.shields.io/npm/v/npmdoc-shortid.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-shortid) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-shortid.svg)](https://travis-ci.org/npmdoc/node-npmdoc-shortid)
 #### Amazingly short non-sequential url-friendly unique id generator.
 
 [![NPM](https://nodei.co/npm/shortid.png?downloads=true)](https://www.npmjs.com/package/shortid)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-shortid/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-shortid_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-shortid/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-shortid/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-shortid_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-shortid/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-shortid/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-shortid/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-shortid/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
