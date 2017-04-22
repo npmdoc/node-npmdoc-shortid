@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.shortid">
+            function <span class="apidocSignatureSpan"></span>shortid
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.shortid.characters">
             function <span class="apidocSignatureSpan">shortid.</span>characters
             <span class="apidocSignatureSpan">(newCharacters)</span>
@@ -114,6 +123,12 @@
 
         </li>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">shortid.</span>random_from_seed</span>
+
+        </li>
+
     </ol></li>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.shortid.alphabet">module shortid.alphabet</a><ol>
@@ -156,10 +171,105 @@
 
     </ol></li>
 
+    <li class="apidocModuleLi"><a href="#apidoc.module.shortid.generate">module shortid.generate</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.generate.generate">
+            function <span class="apidocSignatureSpan">shortid.</span>generate
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.generate.characters">
+            function <span class="apidocSignatureSpan">shortid.generate.</span>characters
+            <span class="apidocSignatureSpan">(newCharacters)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.generate.decode">
+            function <span class="apidocSignatureSpan">shortid.generate.</span>decode
+            <span class="apidocSignatureSpan">(id)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.generate.isValid">
+            function <span class="apidocSignatureSpan">shortid.generate.</span>isValid
+            <span class="apidocSignatureSpan">(id)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.generate.seed">
+            function <span class="apidocSignatureSpan">shortid.generate.</span>seed
+            <span class="apidocSignatureSpan">(seedValue)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.generate.worker">
+            function <span class="apidocSignatureSpan">shortid.generate.</span>worker
+            <span class="apidocSignatureSpan">(workerId)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.shortid.random_from_seed">module shortid.random_from_seed</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.random_from_seed.nextValue">
+            function <span class="apidocSignatureSpan">shortid.random_from_seed.</span>nextValue
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.shortid.random_from_seed.seed">
+            function <span class="apidocSignatureSpan">shortid.random_from_seed.</span>seed
+            <span class="apidocSignatureSpan">(_seed_)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.shortid" id="apidoc.module.shortid">module shortid</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.shortid" id="apidoc.element.shortid.shortid">
+        function <span class="apidocSignatureSpan"></span>shortid
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function generate() {
+  return build(clusterWorkerId);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
@@ -353,6 +463,8 @@ __Optional__
 
 
 
+
+
 </div>
 
 <div class="apidocSectionDiv">
@@ -471,6 +583,268 @@ function decode(id) {
 }
 
 module.exports = decode;
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.shortid.generate" id="apidoc.module.shortid.generate">module shortid.generate</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.generate.generate" id="apidoc.element.shortid.generate.generate">
+        function <span class="apidocSignatureSpan">shortid.</span>generate
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function generate() {
+  return build(clusterWorkerId);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+### Usage
+
+```js
+var shortid = require('shortid');
+
+console.log(shortid.<span class="apidocCodeKeywordSpan">generate</span>());
+//PPBqWA9
+```
+
+Mongoose Unique Id
+```js
+_id: {
+type: String,
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.generate.characters" id="apidoc.element.shortid.generate.characters">
+        function <span class="apidocSignatureSpan">shortid.generate.</span>characters
+        <span class="apidocSignatureSpan">(newCharacters)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function characters(newCharacters) {
+    if (newCharacters !== undefined) {
+        alphabet.characters(newCharacters);
+    }
+
+    return alphabet.shuffled();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+The default characters provided were selected because they are url safe.
+
+__Example__
+
+```js
+// use $ and @ instead of - and _
+shortid.<span class="apidocCodeKeywordSpan">characters</span>('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+$@');
+```
+
+```js
+// any 64 unicode characters work, but I wouldn't recommend this.
+shortid.characters('â’¶â’·â’¸â’¹â’ºâ’»â’¼â’½â’¾â’¿â“€â“â“‚â“ƒâ“„â“…â“†â“‡â“ˆâ“‰â“Šâ“‹â“Œâ“â“Žâ“â“â“‘â“’â““â“”â“•â“–â“—â“˜â“™â“šâ“›â“œâ“â“žâ“Ÿâ“&nbsp;â“¡â“¢â“£â“¤â“¥â“¦â“§â“¨â“©â‘&nbsp;â‘¡â‘¢â‘£â‘¤â‘¥â‘¦â‘§â‘¨â‘©â‘ªâ‘«');
+```
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.generate.decode" id="apidoc.element.shortid.generate.decode">
+        function <span class="apidocSignatureSpan">shortid.generate.</span>decode
+        <span class="apidocSignatureSpan">(id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function decode(id) {
+    var characters = alphabet.shuffled();
+    return {
+        version: characters.indexOf(id.substr(0, 1)) &amp; 0x0f,
+        worker: characters.indexOf(id.substr(1, 1)) &amp; 0x0f
+    };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.generate.isValid" id="apidoc.element.shortid.generate.isValid">
+        function <span class="apidocSignatureSpan">shortid.generate.</span>isValid
+        <span class="apidocSignatureSpan">(id)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isShortId(id) {
+    if (!id || typeof id !== 'string' || id.length &lt; 6 ) {
+        return false;
+    }
+
+    var characters = alphabet.characters();
+    var len = id.length;
+    for(var i = 0; i &lt; len;i++) {
+        if (characters.indexOf(id[i]) === -1) {
+            return false;
+        }
+    }
+    return true;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+__Returns__ `boolean`
+
+Check to see if an id is a valid `shortid`. Note: This only means the id _could_ have been generated by `shortid`, it doesn'
+;t guarantee it.
+
+__Example__
+
+```js
+shortid.<span class="apidocCodeKeywordSpan">isValid</span>('41XTDbE');
+// true
+```
+
+```js
+shortid.isValid('i have spaces');
+// false
+```
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.generate.seed" id="apidoc.element.shortid.generate.seed">
+        function <span class="apidocSignatureSpan">shortid.generate.</span>seed
+        <span class="apidocSignatureSpan">(seedValue)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function seed(seedValue) {
+    alphabet.seed(seedValue);
+    return module.exports;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+```js
+shortid.worker(1);
+```
+
+---------------------------------------
+
+#### `shortid.<span class="apidocCodeKeywordSpan">seed</span>(integer)`
+
+__Default:__ `1`
+
+__Recommendation:__ You typically won't want to change this.
+
+__Optional__
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.generate.worker" id="apidoc.element.shortid.generate.worker">
+        function <span class="apidocSignatureSpan">shortid.generate.</span>worker
+        <span class="apidocSignatureSpan">(workerId)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function worker(workerId) {
+    clusterWorkerId = workerId;
+    return module.exports;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```js
+shortid.isValid('i have spaces');
+// false
+```
+
+---------------------------------------
+
+#### `shortid.<span class="apidocCodeKeywordSpan">worker</span>(integer)`
+
+__Default:__ `process.env.NODE_UNIQUE_ID || 0`
+
+__Recommendation:__ You typically won't want to change this.
+
+__Optional__
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.shortid.random_from_seed" id="apidoc.module.shortid.random_from_seed">module shortid.random_from_seed</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.random_from_seed.nextValue" id="apidoc.element.shortid.random_from_seed.nextValue">
+        function <span class="apidocSignatureSpan">shortid.random_from_seed.</span>nextValue
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getNextValue() {
+    seed = (seed * 9301 + 49297) % 233280;
+    return seed/(233280.0);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+function shuffle() {
+if (!alphabet) {
+    setCharacters(ORIGINAL);
+}
+
+var sourceArray = alphabet.split('');
+var targetArray = [];
+var r = randomFromSeed.<span class="apidocCodeKeywordSpan">nextValue</span>();
+var characterIndex;
+
+while (sourceArray.length &gt; 0) {
+    r = randomFromSeed.nextValue();
+    characterIndex = Math.floor(r * sourceArray.length);
+    targetArray.push(sourceArray.splice(characterIndex, 1)[0]);
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.shortid.random_from_seed.seed" id="apidoc.element.shortid.random_from_seed.seed">
+        function <span class="apidocSignatureSpan">shortid.random_from_seed.</span>seed
+        <span class="apidocSignatureSpan">(_seed_)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function setSeed(_seed_) {
+    seed = _seed_;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+```js
+shortid.worker(1);
+```
+
+---------------------------------------
+
+#### `shortid.<span class="apidocCodeKeywordSpan">seed</span>(integer)`
+
+__Default:__ `1`
+
+__Recommendation:__ You typically won't want to change this.
+
+__Optional__
 ...</pre></li>
     </ul>
 
